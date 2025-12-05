@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Bhavna</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Bhavna</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-page-content container">
+      <h1>About Me <span class="glow-soft">—</span></h1>
+      <div class="about-grid">
+        <div>
+          <p>Hello! I'm <strong class="glow">Bhavna</strong>, a first-year B.Tech student (CSE — AI &amp; ML). I enjoy building small web projects, solving coding problems, and experimenting with ML models. I like clean UI and subtle motion that feels alive.</p>
+
+          <p><strong>College:</strong> KIET Group of institutions<br>
+             <strong>Branch:</strong> CSE (AI &amp; ML)<br>
+             <strong>Year:</strong> 1st Year</p>
+
+          <p>I code in <span class="glow-soft">C</span>, create front-ends with <span class="glow">HTML</span> &amp; <span class="glow">CSS</span>. I aim to build helpful ML-powered web apps.</p>
+          <span></span><span style="margin-left: 20px;"></span>
+
+
+            <ul>
+            <li><strong>Hobbies:</strong> Music, Sketching</li>
+            <li><strong>Interests:</strong> Web Dev, ML</li>
+            <li><strong>Contact:</strong> bhavipanwar279@gmail.com</li>
+          </ul>
+        </div>
+
+        <aside class="about-quick">
+          <img src="../images/profile.jpg" alt="Profile" class="about-avatar">
+          <ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bhavna</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

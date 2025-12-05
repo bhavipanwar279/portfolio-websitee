@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Bhavna</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Bhavna</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="section-title">Projects</h1>
+    <p class="muted">Here are a few projects I’ve built while learning HTML, CSS, and JavaScript.</p>
+
+
+      <div class="projects-grid" style="margin-top:18px;">
+        <article class="project-card">
+          <img src="../images/project1.jpg" alt="metro bharat ">
+          <div class="project-body">
+            <h3>Metro Bharat — Metro Information & Navigation Site</h3>
+            <p>A user-friendly metro navigation website with routes, stations, travel info, and smart UI design</p>
+            <div class="project-actions">
+              <a class="small-btn" href="#">View Demo</a>
+              <a class="small-btn" href="#">View Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="../images/project2.jpg" alt="Visual Art Gallery">
+          <div class="project-body">
+            <h3>Visual Art Gallery</h3>
+            <p>A simple visual art gallery webpage created using HTML and basic CSS to display images in a clean layout.</p>
+            <div class="project-actions">
+              <a class="small-btn" href="#">View code</a>
+              <a class="small-btn" href="#">Github</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="../images/project3.jpg" alt="Save N Serve">
+          <div class="project-body">
+            <h3>Save N Serve -Food waste management system </h3>
+            <p>A smart platform that connects leftover food donors with NGOs to reduce food wastage and feed needy communities.</p>
+            <div class="project-actions">
+              <a class="small-btn" href="#">Demo</a>
+              <a class="small-btn" href="#">View Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Bhavna</p>
+    </div>
+  </footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
